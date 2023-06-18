@@ -1,0 +1,183 @@
+/* CSS for BlogWebsite.js */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    padding: 80px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Featured Blogs section styles */
+  .featured-blogs {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .segment {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .segment h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    width: 100%;
+  }
+  
+  .sub-segment {
+    flex: 0 0 auto;
+    margin: 0 10px;
+    text-align: left;
+    width: 250px;
+  }
+  
+  .sub-segment h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .sub-segment ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sub-segment li {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .sub-segment li::before {
+    content: '•';
+    color: #666;
+    margin-right: 5px;
+  }
+  
+  /* News Feeds section styles */
+  .news-feeds {
+    padding: 40px;
+    background-color: #f2f2f2;
+  }
+  
+  .news-feeds h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .news-feeds ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .news-feeds li {
+    margin-bottom: 10px;
+  }
+  
+  /* Upcoming Events section styles */
+  .upcoming-events {
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .upcoming-events h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .upcoming-events ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .upcoming-events li {
+    margin-bottom: 10px;
+  }
+  
+  /* Jobs section styles */
+  .jobs {
+    padding: 40px;
+    background-color: #f2f2f2;
+  }
+  
+  .jobs h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .jobs ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .jobs li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .additional-links ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .additional-links li {
+    margin-right: 20px;
+  }
+  
+  .contact-info p {
+    margin: 0;
+  }
+  
